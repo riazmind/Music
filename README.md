@@ -3,11 +3,11 @@
 Spotify Music App
 
 ## Function 
-It is used to search music track, artist and album. 
+It is used to search music tracks, artist and album. 
 
 ### Requirement
 
-It needs spotify api key that create on fly by using client id and secret so create it first by running "npm start" instead of "ng start". 
+It needs spotify api key that create on fly by using client id and secret so create it first by running "npm start" instead of "ng start". If app stop to work after sometime then npm start again to create new api key. 
 
 ### Missing components 
 
