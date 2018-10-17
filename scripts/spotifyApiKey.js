@@ -11,10 +11,8 @@ var fs = require('fs');
 
 // Credentials for Spotify
 const SPOTIFY_BASE_URI = 'https://api.spotify.com/v1';
-const SPOTIFY_CLIENT_ID =
-  ''; 
-const SPOTIFY_CLIENT_SECRET =
-  ''; 
+const SPOTIFY_CLIENT_ID = ''; // use the your own Client Id  
+const SPOTIFY_CLIENT_SECRET = ''; // use the your own Client Secret   
 const BASE_64_ENCODED_CLIENT_CREDENTIALS = btoa(
   `${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`
 );
