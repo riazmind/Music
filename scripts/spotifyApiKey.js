@@ -12,9 +12,9 @@ var fs = require('fs');
 // Credentials for Spotify
 const SPOTIFY_BASE_URI = 'https://api.spotify.com/v1';
 const SPOTIFY_CLIENT_ID =
-  '5022a26c7e1a41f3996e0b810d7e3fbc'; 
+  ''; 
 const SPOTIFY_CLIENT_SECRET =
-  '473f025e8e5045f0b01cb6208f60d5bf'; 
+  ''; 
 const BASE_64_ENCODED_CLIENT_CREDENTIALS = btoa(
   `${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`
 );
